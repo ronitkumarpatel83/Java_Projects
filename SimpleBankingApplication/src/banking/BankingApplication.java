@@ -4,15 +4,15 @@ import java.util.Scanner;
 
 public class BankingApplication {
 	
-	// For storing balance
+	
 	public static double Balance = 0;
 	
-	// for checking balance
+	
 	private static void checkBalance() {
 		System.out.println("Available balance Rs : "+ Balance);
 	}
 	
-	// deposit balance
+	
 	private static void depositBalance(Scanner scanner) {
 		System.out.println("Enter the deposit amount : ");
 		
@@ -21,7 +21,7 @@ public class BankingApplication {
 		System.out.println("Amount of "+ depositAmount +"rupees deposited successfully");
 	}
 	
-	//withdraw balance
+	
 	private static void withdrawAmount(Scanner scanner) {
 		System.out.println("Enter withdraw amount : ");
 		int amount = scanner.nextInt();
