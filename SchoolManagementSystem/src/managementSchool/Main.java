@@ -9,16 +9,16 @@ public class Main {
         List<Teacher> teachers = new ArrayList<>();
 
         // Creating students
-        Student student1 = new Student("John Doe", 15, 1001, 9);
-        Student student2 = new Student("Jane Smith", 14, 1002, 8);
+        Student student1 = new Student("Ronit Patel", 15, 1001, 9);
+        Student student2 = new Student("Ritu Patel", 14, 1002, 8);
 
         // Adding students to the list
         students.add(student1);
         students.add(student2);
 
         // Creating teachers
-        Teacher teacher1 = new Teacher("Mr. Johnson", 35, 2001, "Math");
-        Teacher teacher2 = new Teacher("Ms. Anderson", 40, 2002, "Science");
+        Teacher teacher1 = new Teacher("Mr. Ashok", 35, 2001, "Math");
+        Teacher teacher2 = new Teacher("Ms. Sabitri", 40, 2002, "Science");
 
         // Adding teachers to the list
         teachers.add(teacher1);
